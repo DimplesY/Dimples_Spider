@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<bookstore>
+    <book lang="zh">《月亮与六便士》</book>
+    <author>不清楚</author>
+    <price>50.00</price>
+
+    <book lang="zh">《算法》</book>
+    <author>不清楚</author>
+    <price>80.00</price>
+
+    <book lang="en">《python》</book>
+    <author>不清楚</author>
+    <price>50.00</price>
+
+</bookstore>
