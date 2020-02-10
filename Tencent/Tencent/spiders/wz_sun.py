@@ -10,6 +10,7 @@ class WzSunSpider(scrapy.Spider):
     offset = 0
     start_urls = [baseURL + str(offset)]
 
+
     def parse(self, response):
         node_list = response.xpath('//body//div[@id="morelist"]//tr//tr')
 
@@ -28,3 +29,5 @@ class WzSunSpider(scrapy.Spider):
             self.offset += 30
             url = self.baseURL + str(self.offset)
             yield scrapy.Request(url,callback=self.parse,dont_filter=True)
+
+
